@@ -6,20 +6,17 @@
 }
 
 body {
+  background-image: url("./img/pexels-lilartsy-1111597.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-width: 100vh;
   min-height: 100vh;
-}
-.div-container {
-  background-color: transparent;
-  width: 32vh;
-  height: 18vh;
-  padding: 2rem;
-  box-shadow: 5px 5px 15px black;
-  font-weight: bold;
 }
 
 body {
@@ -41,9 +38,11 @@ button {
 }
 
 .div-container {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   background-color: transparent;
-  width: 22vh;
-  height: 24vh;
+  width: 26vh;
+  height: 22vh;
   padding: 2rem;
   box-shadow: 5px 5px 15px black;
   font-weight: bold;
@@ -59,14 +58,13 @@ button {
   width: 100%;
 }
 
-input{
+input {
   font-weight: bold;
 }
 
-::placeholder{
+::placeholder {
   font-weight: bold;
 }
-textarea{
+textarea {
   font-weight: bold;
 }
-
