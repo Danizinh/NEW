@@ -4,5 +4,5 @@ function sorteio() {
     const max = document.getElementById("maximo").value
 
     const sort = Math.floor((Math.random() * max) + min)
-    document.getElementById("resu").innerHTML = sort;
+    document.getElementById("result").innerHTML = sort;
 }
